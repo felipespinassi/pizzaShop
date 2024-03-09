@@ -23,7 +23,9 @@ export default function Signin() {
     toast.success("Enviamos um link de autenticação para o seu email", {
       action: {
         label: "Reenviar",
-        onClick: () => {},
+        onClick: () => {
+          handleSignin(data);
+        },
       },
     });
     await new Promise((resolve) => setTimeout(resolve, 3000));
