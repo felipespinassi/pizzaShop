@@ -1,6 +1,5 @@
 import { Home, Pizza, UtensilsCrossed } from "lucide-react";
 import { Separator } from "./ui/separator";
-import { Link } from "react-router-dom";
 import { NavLink } from "./nav-link";
 import { ThemeToogle } from "./theme/theme-toogle";
 import AccountMenu from "./account-menu";
