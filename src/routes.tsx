@@ -11,10 +11,11 @@ export const router = createBrowserRouter([
   // { path: "/sign-in", element: <Signin /> },
 
   {
+    path: "/",
     element: <AppLayout />,
     children: [
       {
-        path: "/dashboard",
+        path: "/",
         element: <Dashboard />,
       },
       {
@@ -28,7 +29,7 @@ export const router = createBrowserRouter([
     element: <AuthLayout />,
     children: [
       {
-        path: "/",
+        path: "/sign-in",
         element: <Signin />,
       },
       {

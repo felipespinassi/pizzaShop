@@ -29,7 +29,7 @@ export default function SignUp() {
       action: {
         label: "Login",
         onClick: () => {
-          navigate("/");
+          navigate("/sign-in");
         },
       },
     });
@@ -40,7 +40,7 @@ export default function SignUp() {
       <Helmet title="Cadastro" />
       <div className="p-8 ">
         <Button variant={"ghost"} asChild className="absolute right-8 top-8">
-          <Link to={"/"} className="">
+          <Link to={"/sign-in"} className="">
             Fazer login
           </Link>
         </Button>
