@@ -9,7 +9,6 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { ArrowRight, Search, X } from "lucide-react";
-import React from "react";
 import { Helmet } from "react-helmet-async";
 
 export default function Orders() {
